@@ -45,7 +45,7 @@ for i in range(len(files)):
                     sec2 -= 60.0
 
                 clip = clip.subclip(t_start=(min1,sec1), t_end=(min2,sec2))
-                clip.write_videofile(".\\Web_Scrape_Cut\\" + videoName(clip_num) + ".mp4")
+                clip.write_videofile(".\\Web_Scrape_Cut\\" + videoName(clip_num) + ".mp4", audio=False)
                 clip_num += 1
 
             elif (cmd.lower() == 'b'):
