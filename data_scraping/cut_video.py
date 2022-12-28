@@ -7,7 +7,7 @@ def videoName(i):
         ret = '0' + ret
     return "WS-NL-C-" + ret
 
-clip_num = 0    # stores file name counter
+clip_num = 99    # stores file name counter, manually change if program is restarted
 files = os.listdir('Web_Scrape_Precut')
 
 for i in range(len(files)):
