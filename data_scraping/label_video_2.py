@@ -16,7 +16,7 @@ def videoName(i, overstride_score, forward_score, backward_score, sweep_score, l
 
 files = os.listdir('Web_Scrape_Labeled')
 
-already_labeled = 0
+already_labeled = 173
 
 for i in range(len(files)):
 
@@ -32,7 +32,7 @@ for i in range(len(files)):
         prev_b = int(files[i][10])
         prev_s = int(files[i][13])
         prev_l = int(files[i][16])
-        prev_s = files[i][18]
+        prev_side = files[i][18]
 
         overstride = int(input('overstride (0-9): '))
         if (overstride < 0): # enter a negative number if the training example is not good
@@ -60,15 +60,13 @@ for i in range(len(files)):
 
         if abs(sweep - prev_s) > 2:
             sweep = int(input('you previously rated sweeping as ' + str(prev_s) + ' and now rate it ' + str(sweep) + '. Enter your final choice:'))
-        else:
-            sweep = int((sweep + prev_s + 1) / 2)
 
         if abs(low_arm - prev_l) > 2:
             low_arm = int(input('you previously rated low arms as ' + str(prev_l) + ' and now rate it ' + str(low_arm) + '. Enter your final choice:'))
         else:
             low_arm = int((low_arm + prev_l + 1) / 2)
 
-        if (side != prev_s):
+        if (side != prev_side):
             side = input('Entry side entered (' + str(side) + ') differs from previous side. Enter your final choice:')
         
         
