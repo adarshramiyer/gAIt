@@ -75,3 +75,4 @@ for i in range(len(files)):
         new_name = videoName(i, overstride, forward, backward, sweep, low_arm, side)
 
         shutil.copy2(f, '.\\Web_Scrape_Labeled_2\\' + new_name + ".mp4")
+        print('Saved Successfully\n')
