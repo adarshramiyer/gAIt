@@ -1,0 +1,11 @@
+# ignore the following
+
+data_scraping/chromedriver.exe
+data_scraping/Web_Scrape_Precut
+data_scraping/Web_Scrape_Cut
+data_scraping/Web_Scrape_Labeled
+data_scraping/Web_Scrape_Labeled_2
+
+data_supplement/Self_Record_Precut
+data_supplement/Self_Record_Cut
+data_supplement/Self_Record_Labeled
