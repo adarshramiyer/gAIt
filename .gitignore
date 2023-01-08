@@ -11,3 +11,5 @@ data_supplement/Self_Record_Cut
 data_supplement/Self_Record_Labeled
 
 data_processing/lite-model_movenet_singlepose_thunder_tflite_float16_4.tflite
+data_processing/lite-model_movenet_singlepose_lightning_3.tflite
+data_processing/posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite
