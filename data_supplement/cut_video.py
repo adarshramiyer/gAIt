@@ -7,12 +7,12 @@ def videoName(i):
         ret = '0' + ret
     return "SR-NL-C-" + ret
 
-clip_num = 163    # stores file name counter, manually change if program is restarted
+clip_num = 196    # stores file name counter, manually change if program is restarted
 files = os.listdir('Self_Record_Precut')
 
 for i in range(len(files)):
     f = os.path.join('Self_Record_Precut', files[i])
-    if (os.path.isfile(f) and (os.path.splitext(f)[1] == '.mp4')): # if f is an mp4 file
+    if (os.path.isfile(f)): # if f is an mp4 file
         print("working on " + str(f))
         clip = VideoFileClip(f)
         while True:
@@ -45,7 +45,7 @@ for i in range(len(files)):
                     sec2 -= 60.0
 
                 clip = clip.subclip(t_start=(min1,sec1), t_end=(min2,sec2))
-                clip.write_videofile(".\\Web_Scrape_Cut\\" + videoName(clip_num) + ".mp4", audio=False)
+                clip.write_videofile(".\\Self_Record_Cut\\" + videoName(clip_num) + ".mp4", audio=False)
                 clip_num += 1
 
             elif (cmd.lower() == 'b'):

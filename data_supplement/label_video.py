@@ -16,7 +16,7 @@ def videoName(i, overstride_score, forward_score, backward_score, sweep_score, l
 
 files = os.listdir('Self_Record_Cut')
 
-already_labeled = 47
+already_labeled = 49
 
 for i in range(len(files)):
 
