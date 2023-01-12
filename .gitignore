@@ -17,3 +17,5 @@ time_series/pose_videos
 time_series/web_scrape
 time_series/supplement
 time_series/backup
+time_series/bad_sr_pose_estimates.txt
+time_series/bad_ws_pose_estimates.txt
