@@ -14,8 +14,12 @@ data_processing/lite-model_movenet_singlepose_thunder_tflite_float16_4.tflite
 data_processing/lite-model_movenet_singlepose_lightning_3.tflite
 data_processing/posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite
 time_series/pose_videos
-time_series/web_scrape
-time_series/supplement
-time_series/backup
+time_series/pose_videos_backup
+time_series/raw
+time_series/raw_backup
+time_series/smoothed
+time_series/smoothed_backup
+time_series/translationally_normalized
+time_series/translationally_normalized_backup
 time_series/bad_sr_pose_estimates.txt
 time_series/bad_ws_pose_estimates.txt
