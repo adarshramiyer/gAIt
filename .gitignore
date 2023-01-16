@@ -23,3 +23,5 @@ time_series/translationally_normalized
 time_series/translationally_normalized_backup
 time_series/bad_sr_pose_estimates.txt
 time_series/bad_ws_pose_estimates.txt
+time_series/scale_normalized
+time_series/scale_normalized_backup
