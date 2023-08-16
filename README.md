@@ -3,4 +3,4 @@ gAIt is a completed research project on Deep Learning techniques for the evaluat
 
 Presently, a light ResNet with 384K parameters achieves the best performance, compared to a CNN, FCNN, and K-Nearest Neighbors with Dynamic Time Warping. This work introduces a new dataset (available upon request) for the development of these models as well as more nuanced models by others.
 
-The paper for this research project can be found at [https://ieeexplore.ieee.org/document/10179061](url) and appeared at the 13th IEEE International Conference on Pattern Recognition Systems.
+The paper for this research project can be found at [https://www.ieeexplore.ieee.org/document/10179061](url) and appeared at the 13th IEEE International Conference on Pattern Recognition Systems.
